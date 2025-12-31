@@ -13,7 +13,7 @@ get https://geo.datav.aliyun.com/areas_v3/bound/110000_full.json
 #### 已湖北为例-省级的数据
 get https://geo.datav.aliyun.com/areas_v3/bound/420000_full.json
 
-#### 已湖北为例-市级的数据
+#### 已武汉市为例-市级的数据
 get https://geo.datav.aliyun.com/areas_v3/bound/420100_full.json
 
 ## 备注
