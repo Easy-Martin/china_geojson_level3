@@ -17,4 +17,4 @@ get https://geo.datav.aliyun.com/areas_v3/bound/420000_full.json
 get https://geo.datav.aliyun.com/areas_v3/bound/420100_full.json
 
 ## 备注
-项目需要使用全国省市区geojson数据，奈何这样的数据居然还都特么收费，无语自己爬了一份，分享一下。其中部分数据阿里云也有缺失故没有；
+项目需要使用全国省市区geojson数据，奈何这样的数据居然还都特么收费，无语自己爬了一份，分享一下。其中部分数据阿里云也有缺失故没有；仓库包含了爬虫脚本`main_crawler.js`，让 AI5 分钟写完的。`data/geo.json`额外补充的全国省级数据，数据按照 data/直辖市code/geo.json 或者 data/省份code/geo.json 和 data/省份code/城市code/geo.json 组织。
